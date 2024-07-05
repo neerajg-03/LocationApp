@@ -69,7 +69,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-}
+
 
 
 implementation("com.google.maps.android:maps-compose:2.15.0")
@@ -79,8 +79,4 @@ implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
 implementation("io.coil-kt:coil-compose:2.4.0")
 implementation("androidx.navigation:navigation-compose:2.7.4")
 implementation("com.google.android.gms:play-services-maps:18.2.0")
-implementation("com.google.android.libraries.maps:maps:3.1.0-beta")
-<meta-data
-android:name="com.google.android.geo.API_KEY"
-android:value="AIzaSyAZ8vuTAg0UUBEwZLSG6JSePw_EQYxJZ_U"
-/>
+implementation("com.google.android.libraries.maps:maps:3.1.0-beta")}
